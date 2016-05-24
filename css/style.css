@@ -214,7 +214,7 @@ body {
 
 .slider-controls {
 	position: absolute;
-	bottom: 94px;
+	bottom: 100px;
 	left: 50%;
 	width: 200px;
 	height: 10px;
@@ -233,6 +233,7 @@ body {
 	border: 3px solid white;
 	border-radius: 50%;
 	cursor: pointer;
+	padding: 5px;
 }
 
 .slider input[type="radio"] {
