@@ -1,0 +1,7 @@
+*.psd
+/bower_components
+prepros.cfg
+*.css.map
+img/temp
+/temp
+bower.json

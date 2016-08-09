@@ -1,178 +1,152 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Nerds!</title>
-	<link href='https://fonts.googleapis.com/css?family=Roboto:500,300,100&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+	<title>Planet Express</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<header class="main-header">
-		<div class="container">
-			<div class="top-menu clearfix">
-				<div class="logo">
-					<a href="index.html"><img src="img/logo_nerds.png" alt="Логотип Nerds" width="139" height="56"></a>
-				</div>
-				<nav class="main-navigation">
-					<ul>
-						<li class="active">Студия</li>
-						<li><a href="#">Клиенты</a></li>
-						<li><a href="catalog.html">Магазин</a></li>
-						<li><a href="#">Контакты</a></li>
-					</ul>
-				</nav>
-				<div class="basket-block"><a class="basket icon-basket" href="#">Корзина</a></div>
-			</div>
+	<div class="container">
+		<div class="header">
 			<div class="slider">
-			<input type="radio" id="btn-1" name="toggle" checked>
-			<input type="radio" id="btn-2" name="toggle">
-			<input type="radio" id="btn-3" name="toggle">
-				<div class="slider-controls">
-					<label for="btn-1"></label>
-					<label for="btn-2"></label>
-					<label for="btn-3"></label>
-				</div>
-				<div class="slides">
-					<div class="slide">
-						<div class="slide-text">
-							<div class="slide-title">Долго, дорого,<br> скрупулезно.</div>
-							<p>Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
-							<a href="#" class="btn">Узнать больше</a>
-						</div>
+				<div class="header__top clearfix">
+					<div class="logo header__item">
+						<img class="logo__image header__item" src="img/logo.png" alt="Logo" width="58" height="55">
+						<div class="logo__text header__item"><span class="logo__span">Planet</span>Express</div>
 					</div>
-					<div class="slide">
-						<div class="slide-text">
-							<div class="slide-title">Любите ли вы математику, как любим ее мы?</div>
-							<p>Нашим дизайнерам мы удаляем нейроны, ответственные<br> за креатив, чтобы дать им возможность все просчитать.</p>
-							<a href="#" class="btn">Узнать больше</a>
-						</div>
-					</div>
-					<div class="slide">
-						<div class="slide-text">
-							<div class="slide-title">Только наркотики,<br> только хардкор!</div>
-							<p>Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов.</p>
-							<a href="#" class="btn">Узнать больше</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-	<main class="container">
-		<div class="offers clearfix">
-			<section class="offers-item">
-				<img src="img/offers_1.png" alt="Ноутбук с сайтом на экране, на красном фоне" width="240" height="124">
-				<h2 class="title-2">Веб-Сайты</h2>
-				<p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-				<button class="btn btn-1">ЗАКАЗАТЬ</button>
-			</section>
-			<section class="offers-item">
-				<img src="img/offers_2.png" alt="Два смартфона на зеленом фоне" width="240" height="124">
-				<h2 class="title-2">Приложения</h2>
-				<p>Покорите топ-10 приложений в AppStore и Google Play</p>
-				<button class="btn btn-1">Заказать</button>
-			</section>
-			<section class="offers-item">
-				<img src="img/offers_3.png" alt="Доска с графиками на желтом фоне" width="240" height="124">
-				<h2 class="title-2">Презентации</h2>
-				<p>Вы даже не подозреваете, насколько вы изумительны!</p>
-				<button class="btn btn-1">Заказать</button>
-			</section>
-		</div>
-		
-		<div class="index-content">
-			<div class="content-columns clearfix">
-				<div class="column-left">
-					<h1 class="title-1">Мы &#8212; маленькая, но гордая дизайн-студия из Краснодара.</h1>
-					<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>
-					
-					<h3>Выполняем заказы на разработку:</h3>
-					<ul>
-						<li>Веб-сайтов любой сложности</li>
-						<li>Мобильных приложений для iOS и Android</li>
-						<li>Слайдшоу и видео для корпоративных презентаций</li>
+					<ul class="mainNav header__item">
+						<li class="mainNav__item header__item">
+							<a href="#" class="mainNav__link">Home
+							</a>
+						</li>
+						<li class="mainNav__item header__item">
+							<a href="#" class="mainNav__link">Service</a>
+							<ul class="subMenu">
+									<li class="subMenu__item">
+										<a class="subMenu__link" href="#">All</a>
+									</li>
+									<li class="subMenu__item">
+										<a class="subMenu__link" href="/#">Graphic</a>
+									</li>
+									<li class="subMenu__item">
+										<a class="subMenu__link" href="/#">Design</a>
+									</li>
+									<li class="subMenu__item">
+										<a class="subMenu__link" href="/#">Logo</a>
+									</li>
+									<li class="subMenu__item">
+										<a class="subMenu__link" href="/#">Website</a>
+									</li>
+							</ul>
+						</li>
+						<li class="mainNav__item header__item">
+							<a href="#" class="mainNav__link">Works</a>
+							<ul class="subMenu">
+									<li class="subMenu__item">
+										<a class="subMenu__link" href="#">All</a>
+									</li>
+									<li class="subMenu__item">
+										<a class="subMenu__link" href="/#">Graphic</a>
+									</li>
+									<li class="subMenu__item">
+										<a class="subMenu__link" href="/#">Design</a>
+									</li>
+									<li class="subMenu__item">
+										<a class="subMenu__link" href="/#">Logo</a>
+									</li>
+									<li class="subMenu__item">
+										<a class="subMenu__link" href="/#">Website</a>
+									</li>
+							</ul>
+						</li>
+						<li class="mainNav__item header__item">
+							<a href="#" class="mainNav__link">About me</a>
+						</li>
+						<li class="mainNav__item header__item">
+							<a href="#" class="mainNav__link">Contact</a>
+						</li>
 					</ul>
 				</div>
-				<div class="column-right">
-					<div class="logo-small">
-					<img src="img/logo_nerds_2_full.png" width="240" height="119" alt="Логотип Nerds Основано в 2004">
+				
+				<input class="slider__input" id="slider__btn1" type="radio" name="slider-1">
+				<input class="slider__input" id="slider__btn2" type="radio" name="slider-1" checked>
+				<input class="slider__input" id="slider__btn3" type="radio" name="slider-1">
+				<input class="slider__input" id="slider__btn4" type="radio" name="slider-1">
+				<input class="slider__input" id="slider__btn5" type="radio" name="slider-1">
+				
+				<div class="slider__controls">
+					<span class="slider__control slider__control_arrow">Prev</span>
+					
+					<label for="slider__btn1" class="slider__control">1</label>
+					<label for="slider__btn2" class="slider__control">2</label>
+					<label for="slider__btn3" class="slider__control">3</label>
+					<label for="slider__btn4" class="slider__control">4</label>
+					<label for="slider__btn5" class="slider__control">5</label>
+					
+					<span class="slider__control slider__control_arrow">Next</span>
+				</div>
+				
+				<div class="slider__slides">
+					<div class="slider__slide slider__slide_1 centerText">
+						<div class="title title_slider">Slider 1</div>
+						<p class="text text_slider">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quos molestiae vel facilis ipsa nobis aspernatur perferendis ea dolorem eos sequi inventore in sed molestias porro asperiores eaque cumque, iusto.</p>
 					</div>
-					<h3>Как мы работаем:</h3>
-					<ul>
-						<li>С самоотдачей 146%</li>
-						<li>Соблюдая сроки на 100%</li>
-						<li>По предоплате 50%</li>
-					</ul>
-				</div>
-			</div>
-			<div class="logos clearfix">
-				<div class="logo-1">
-					<a href="#"></a>
-				</div>
-				<div class="logo-2">
-					<a href="#"></a>
-				</div>
-				<div class="logo-3">
-					<a href="#"></a>
+					<div class="slider__slide slider__slide_2 centerText">
+						<div class="title title_slider">Slider</div>
+						<p class="text text_slider">Sed laoreet magna at neque sollic-i-tudin, quis tristique ipsum per molestie. Class apt ent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum facilisis malesuada. Integer rhoncus laoreet velit</p>
+					</div>
+					<div class="slider__slide slider__slide_3 centerText">
+						<div class="title title_slider">Slider 3</div>
+						<p class="text text_slider">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi non quis eos nam deserunt, velit adipisci odit pariatur excepturi autem asperiores ex dolor natus nulla illum perspiciatis itaque molestias quae qui. Dolorem, laboriosam!</p>
+					</div>
+					<div class="slider__slide slider__slide_4 centerText">
+						<div class="title title_slider">Slider 4</div>
+						<p class="text text_slider">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dolores dolorem error aliquid quaerat sed molestias reprehenderit vitae laboriosam cum sit suscipit, odio, obcaecati quis veritatis debitis est consequuntur fugit corporis nostrum iste? Cum, fugiat.</p>
+					</div>
+					<div class="slider__slide slider__slide_5 centerText">
+						<div class="title title_slider">Slider 5</div>
+						<p class="text text_slider">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo dolorem excepturi fugit minima natus commodi officia cum eveniet alias corporis, hic dolores, rem cupiditate magnam maiores quia in, repudiandae, provident?</p>
+					</div>
+					
 				</div>
 			</div>
 		</div>
-	</main>
-	
-	<footer class="main-footer">
-			<div class="map-wrapper">
-				<div class="map" id="map"></div>
-				<div class="container">
-					<div class="map-block">
-					<p><b>NЁRDS</b> DESIGN STUDIO</p>
-					350000, Краснодар,<br>
-					ул. Головатого, 100<br><br>
-					
-					тел. +7 (861) 275-75-75
-					
-					<a href="write.html" class="btn write-us">Напишите нам</a>
+		<div class="main">
+			<div class="welcome">
+				<div class="welcome__header  centerText">
+						<div class="title">Welcome</div>
+						<div class="text">Donec rutrum molestie ipsum ut luctus. Maecenas finibus nisl eget odio bibendum, eu eleifend orci porttitor. Suspendisse vitae lorem facilisis elit tristique aliquet at ac nunc. Sed libero nulla, luctus vitae tempor a, faucibus egestas mauris. Nulla euismod, est ut rhoncus sodales. Cras a elit sed arcu tristique ullamcorper.</div>
+					</div>
+					<div class="postsBlock">
+						<div class="post clearfix">
+							<div class="post__hover">
+								
+							</div>
+							<div class="post__textBlock">
+								<div class="title3">Ui/Ux Design</div>
+								<div class="text post__text">
+									<p class="post__p">Fusce posuere et males uada est, nec convallis euis mod. Nam eleifen elitinex placerat semper vitae et enim.</p>
+									<p class="post__p">Males uada est, nec convallis euis mod. Nam eleifen elitinex placerat.</p>
 								</div>
-				</div>
-			</div>
-		
-		
-		<div class="container clearfix">
-			<div class="footer-social">
-				<a href="" class="btn icon-vk"></a>
-				<a href="" class="btn icon-facebook"></a>
-				<a href="" class="btn icon-instagramm"></a>
-			</div>
-			<div class="footer-promo">
-				<div class="title-1">Давайте дружить, это выгодно!</div>
-				Скидка 10% для друзей из социальных сетей.
+							</div>
+						</div>
+						<div class="post post_2 clearfix">
+							<div class="post__hover">
+								
+							</div>
+							<div class="post__textBlock">
+								<div class="title3">Web Development</div>
+								<div class="text post__text">
+									<p class="post__p">Phasellus interdum aliquam eros, vitae vestibulum elit malesuada ut. Integer nec ex accumsan, suscipit eros a, tempus nisi. Suspendisse pretium elementum.</p>
+									
+								</div>
+							</div>
+						</div>
+						
+					</div>
 			</div>
 		</div>
-	</footer>
-	
-	 <div class="modal-content">
-  	<form class="contact-form" action="/echo" method="post" >
-  		<div>
-  			<label for="name">Ваше имя</label>
-  			<input id="name" type="text" name="name" placeholder="Представьтесь, Пожалуйста" required>
-  		</div>
-  		<div>
-  			<label for="email">Ваш e-mail:</label>
-  			<input id="email" type="email" name="email" placeholder="Для отправки ответа" required>
-  		</div>
-  		<label for="text">Текст письма</label>
-  		<textarea name="text" id="text">В свободной форме</textarea>
-  		<button type="submit" class="btn">Отправить</button>
-  		<button class="btn modal-content-close">Отмена</button>
-  	</form>
-  </div>
-	
-	<script src="js/map.js"></script>
-  <script src="js/form.js"></script>
-   <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
-        async defer></script>
-        
-        
-
+	</div>
 </body>
 </html>
