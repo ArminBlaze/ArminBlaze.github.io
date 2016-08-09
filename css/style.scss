@@ -362,6 +362,17 @@ $mainNav_color: #1e2123;
 	margin: 12px 0;
 }
 
+.post__hover {
+//	background-color: deepskyblue;
+	background-image: linear-gradient(to left, #0c9aec 50%, rgba(#0c9aec, 0.9));
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
+
 .post:nth-child(even) {
 	background-position: right;
 	.post__textBlock {
@@ -375,23 +386,13 @@ $mainNav_color: #1e2123;
 	.post__text {
 		text-align: left;
 	}
+	
+	.post__hover {
+		background-image: linear-gradient(to right, #0c9aec 50%, rgba(#0c9aec, 0.9));
+	}
 }
 
-.post__hover {
-//	background-color: deepskyblue;
-	background-image: linear-gradient(to right, blue, white);
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	z-index: -1;
-	
-	
-	
-	
-	
-}
+
 
 .post:hover {
 	.post__hover {

@@ -732,6 +732,16 @@ img {
   margin: 12px 0;
 }
 
+.post__hover {
+  background-image: linear-gradient(to left, #0c9aec 50%, rgba(12, 154, 236, 0.9));
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
 .post:nth-child(even) {
   background-position: right;
 }
@@ -748,14 +758,8 @@ img {
   text-align: left;
 }
 
-.post__hover {
-  background-image: linear-gradient(to right, blue, white);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
+.post:nth-child(even) .post__hover {
+  background-image: linear-gradient(to right, #0c9aec 50%, rgba(12, 154, 236, 0.9));
 }
 
 .post:hover .post__hover {
