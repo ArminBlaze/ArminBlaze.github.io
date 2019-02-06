@@ -21,7 +21,7 @@ body {
 }
 
 .page_expanded .rightPanel {
-	margin-left: 220px;
+	margin-left: 230px;
 }
 
 .mainHeader {
@@ -63,8 +63,11 @@ body {
 	padding-left: 20px;
 /*	margin-top: 130px;*/
 	padding-top: 130px;
-	outline: 1px solid red;
 	position: fixed;
+	bottom: 0;
+	top: 0;
+	border-left: 1px solid #7d97ad;
+	border-right: 1px solid #7d97ad;
 /*	left: 0;*/
 }
 
