@@ -16,7 +16,7 @@ body {
 .page {
 	padding: 0 10px;
 	box-sizing: border-box;
-	width: 1200px;
+	width: 1024px;
 	margin: 0 auto;
 }
 
@@ -146,4 +146,10 @@ body {
 
 .content__title {
 	color: darkgray;
+}
+
+.filters {
+  height: 50px;
+  outline: 1px solid black;
+  margin-bottom: 20px;
 }
