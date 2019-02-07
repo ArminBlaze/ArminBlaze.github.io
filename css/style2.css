@@ -82,12 +82,15 @@ body {
 }
 
 .works__item {
+  box-sizing: border-box;
 	width: 300px;
 	min-height: 200px;
 	margin-bottom: 20px;
 	text-align: center;
 	position: relative;
 /*	border: 1px solid #7d97ad;*/
+  box-shadow: 1px 1px 5px rgba(45, 60, 73, 0.33);
+  
 }
 
 .works__link {
@@ -127,8 +130,18 @@ body {
 	box-sizing: border-box;
 	font-weight: 400;
 	color: #2d3c49;
-	border: 1px solid #7d97ad;
-	border-top-color: transparent;
+/*	border: 1px solid #7d97ad;*/
+/*	border-top-color: transparent;*/
+  transition: opacity 0.2s;
+  opacity: 1;
+}
+
+.works__item:hover {
+  box-shadow: 1px 1px 7px 2px rgba(45, 60, 73, 0.66);
+}
+
+.works__item:hover .works__title {
+  opacity: 0;
 }
 
 .content__title {
