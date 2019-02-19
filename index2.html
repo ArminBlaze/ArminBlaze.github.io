@@ -22,20 +22,13 @@
 					<div class="content__header">
 						<h3 class="content__title">Последние работы:</h3>
 						<ul class="filters">
-							<li class="filters__item"><a class="filters__link" href="#">Завершенные</a></li>
-							<li class="filters__item"><a class="filters__link" href="#">Прототипы</a></li>
+							<li class="filters__item"><a class="filters__button filters__button_selected" data-id="completed" href="#">Завершенные</a></li>
+							<li class="filters__item"><a class="filters__button" data-id="undone" href="#">Прототипы</a></li>
 						</ul>
 					</div>
 				
-					<ul class="works">
-					
-						<li class="works__item">
-							<a class="works__link" href="/UdacityMap">
-							<img class="works__img" src="" alt="">
-							<h2 class="works__title">Udacity Map</h2>
-							</a>
-						</li>
-						
+				
+					<ul class="works works_completed">
 						<li class="works__item">
 							<a class="works__link" href="/keksobooking-2">
 							<img class="works__img" src="img/keksobooking.jpg" alt="">
@@ -72,12 +65,20 @@
 						</li>
 						
 					</ul>
+					
+					
+					<ul class="works works_undone hidden">
+						<li class="works__item">
+							<a class="works__link" href="/UdacityMap">
+							<img class="works__img" src="" alt="">
+							<h2 class="works__title">Udacity Map</h2>
+							</a>
+						</li>
+					</ul>
 				</div>
 			</main>
 		</div>
 		
-		
-	<script>
-	</script>
+		<script src="js/main.js"></script>
 </body>
 </html>

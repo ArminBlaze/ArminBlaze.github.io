@@ -181,7 +181,7 @@ body {
 	
 }
 
-.filters__link {
+.filters__button {
 	display: block;
 	width: 100%;
 /*	min-height: 30px;*/
@@ -189,4 +189,13 @@ body {
 	padding: 5px 0 3px;
 	text-decoration: none;
 	color: inherit;
+	opacity: 0.3;
+}
+
+.hidden {
+	display: none;
+}
+
+.filters__button_selected {
+	opacity: 1;
 }
