@@ -26,8 +26,6 @@ function selectButton(elem) {
 	}
 	activeButton = elem;
 	elem.classList.add('filters__button_selected');
-	
-	
 }
 
 function deselectButton() {

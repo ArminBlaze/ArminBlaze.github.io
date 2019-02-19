@@ -1,149 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Planet Express</title>
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300' rel='stylesheet' type='text/css'>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Portfolio</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="container">
-		<div class="header">
-			<div class="slider">
-				<div class="header__top clearfix">
-					<div class="logo header__item">
-						<img class="logo__image header__item" src="img/logo.png" alt="Logo" width="58" height="55">
-						<div class="logo__text header__item"><span class="logo__span">Planet</span>Express</div>
+	
+	
+<div class="page">
+<!--			<div class="leftPanel">Тут фильтры</div>-->
+			
+			<main class="rightPanel">
+				<header class="mainHeader">
+					<img class="mainHeader__logo" src="img/logo2.svg" alt="logo">
+					<h1 class="mainHeader__name">Armin Blaze</h1>
+					<h4 class="mainHeader__title">Javascript разработчик</h4>
+				</header>
+				<div class="content">
+					<div class="content__header">
+						<h3 class="content__title">Последние работы:</h3>
+						<ul class="filters">
+							<li class="filters__item"><a class="filters__button filters__button_selected" data-id="completed" href="#">Завершенные</a></li>
+							<li class="filters__item"><a class="filters__button" data-id="undone" href="#">Прототипы</a></li>
+						</ul>
 					</div>
-					<ul class="mainNav header__item">
-						<li class="mainNav__item header__item">
-							<a href="#" class="mainNav__link">Home
+				
+				
+					<ul class="works works_completed">
+						<li class="works__item">
+							<a class="works__link" href="/keksobooking-2">
+							<img class="works__img" src="img/keksobooking.jpg" alt="">
+							<h2 class="works__title">Keksobooking</h2>
 							</a>
 						</li>
-						<li class="mainNav__item header__item">
-							<a href="#" class="mainNav__link">Service</a>
-							<ul class="subMenu">
-									<li class="subMenu__item">
-										<a class="subMenu__link" href="/Nerds">Nerds!</a>
-									</li>
-									<li class="subMenu__item">
-										<a class="subMenu__link" href="/Barber">Barbershop</a>
-									</li>
-									<li class="subMenu__item">
-										<a class="subMenu__link" href="/Sedona">Sedona</a>
-									</li>
-									<li class="subMenu__item">
-										<a class="subMenu__link" href="/UdacityMap">UdacityMap</a>
-									</li>
-							</ul>
+						
+						<li class="works__item">
+							<a class="works__link" href="/Sedona">
+							<img class="works__img" src="img/sedona.jpg" alt="">
+							<h2 class="works__title">Sedona</h2>
+							</a>
 						</li>
-						<li class="mainNav__item header__item">
-							<a href="#" class="mainNav__link">Works</a>
-							<ul class="subMenu">
-									<li class="subMenu__item">
-										<a class="subMenu__link" href="#">All</a>
-									</li>
-									<li class="subMenu__item">
-										<a class="subMenu__link" href="/#">Graphic</a>
-									</li>
-									<li class="subMenu__item">
-										<a class="subMenu__link" href="/#">Design</a>
-									</li>
-									<li class="subMenu__item">
-										<a class="subMenu__link" href="/#">Logo</a>
-									</li>
-									<li class="subMenu__item">
-										<a class="subMenu__link" href="/#">Website</a>
-									</li>
-							</ul>
+						
+						<li class="works__item">
+							<a class="works__link" href="/Technomart">
+							<img class="works__img" src="img/technomart3.jpg" alt="">
+							<h2 class="works__title">Technomart</h2>
+							</a>
 						</li>
-						<li class="mainNav__item header__item">
-							<a href="#" class="mainNav__link">About me</a>
+						
+						<li class="works__item">
+							<a class="works__link" href="/Nerds">
+							<img class="works__img" src="img/nerds.jpg" alt="">
+							<h2 class="works__title">Nerds!</h2>
+							</a>
 						</li>
-						<li class="mainNav__item header__item">
-							<a href="#" class="mainNav__link">Contact</a>
+						
+						<li class="works__item">
+							<a class="works__link" href="/Barber">
+							<img class="works__img" src="img/barber.jpg" alt="">
+							<h2 class="works__title">Barbershop</h2>
+							</a>
 						</li>
+						
+						<li class="works__item">
+							<a class="works__link" href="/planet-express">
+							<img class="works__img" src="img/barber.jpg" alt="">
+							<h2 class="works__title">Planet Express</h2>
+							</a>
+						</li>
+						
+					</ul>
+					
+					
+					<ul class="works works_undone hidden">
+					
+						<li class="works__item">
+							<a class="works__link" href="/UdacityMap">
+							<img class="works__img" src="" alt="">
+							<h2 class="works__title">Udacity Map</h2>
+							</a>
+						</li>
+						
+						<li class="works__item">
+							<a class="works__link" href="/code-and-magic">
+							<img class="works__img" src="" alt="">
+							<h2 class="works__title">Code and Magic</h2>
+							</a>
+						</li>
+						
+						<li class="works__item">
+							<a class="works__link" href="/tetris">
+							<img class="works__img" src="" alt="">
+							<h2 class="works__title">Tetris</h2>
+							</a>
+						</li>
+						
 					</ul>
 				</div>
-				
-				<input class="slider__input" id="slider__btn1" type="radio" name="slider-1">
-				<input class="slider__input" id="slider__btn2" type="radio" name="slider-1" checked>
-				<input class="slider__input" id="slider__btn3" type="radio" name="slider-1">
-				<input class="slider__input" id="slider__btn4" type="radio" name="slider-1">
-				<input class="slider__input" id="slider__btn5" type="radio" name="slider-1">
-				
-				<div class="slider__controls">
-					<span class="slider__control slider__control_arrow">Prev</span>
-					
-					<label for="slider__btn1" class="slider__control">1</label>
-					<label for="slider__btn2" class="slider__control">2</label>
-					<label for="slider__btn3" class="slider__control">3</label>
-					<label for="slider__btn4" class="slider__control">4</label>
-					<label for="slider__btn5" class="slider__control">5</label>
-					
-					<span class="slider__control slider__control_arrow">Next</span>
-				</div>
-				
-				<div class="slider__slides">
-					<div class="slider__slide slider__slide_1 centerText">
-						<div class="title title_slider">Slider 1</div>
-						<p class="text text_slider">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quos molestiae vel facilis ipsa nobis aspernatur perferendis ea dolorem eos sequi inventore in sed molestias porro asperiores eaque cumque, iusto.</p>
-					</div>
-					<div class="slider__slide slider__slide_2 centerText">
-						<div class="title title_slider">Slider</div>
-						<p class="text text_slider">Sed laoreet magna at neque sollic-i-tudin, quis tristique ipsum per molestie. Class apt ent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum facilisis malesuada. Integer rhoncus laoreet velit</p>
-					</div>
-					<div class="slider__slide slider__slide_3 centerText">
-						<div class="title title_slider">Slider 3</div>
-						<p class="text text_slider">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi non quis eos nam deserunt, velit adipisci odit pariatur excepturi autem asperiores ex dolor natus nulla illum perspiciatis itaque molestias quae qui. Dolorem, laboriosam!</p>
-					</div>
-					<div class="slider__slide slider__slide_4 centerText">
-						<div class="title title_slider">Slider 4</div>
-						<p class="text text_slider">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dolores dolorem error aliquid quaerat sed molestias reprehenderit vitae laboriosam cum sit suscipit, odio, obcaecati quis veritatis debitis est consequuntur fugit corporis nostrum iste? Cum, fugiat.</p>
-					</div>
-					<div class="slider__slide slider__slide_5 centerText">
-						<div class="title title_slider">Slider 5</div>
-						<p class="text text_slider">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo dolorem excepturi fugit minima natus commodi officia cum eveniet alias corporis, hic dolores, rem cupiditate magnam maiores quia in, repudiandae, provident?</p>
-					</div>
-					
-				</div>
-			</div>
+			</main>
 		</div>
-		<div class="main">
-			<div class="welcome">
-				<div class="welcome__header  centerText">
-						<div class="title">Welcome</div>
-						<div class="text">Donec rutrum molestie ipsum ut luctus. Maecenas finibus nisl eget odio bibendum, eu eleifend orci porttitor. Suspendisse vitae lorem facilisis elit tristique aliquet at ac nunc. Sed libero nulla, luctus vitae tempor a, faucibus egestas mauris. Nulla euismod, est ut rhoncus sodales. Cras a elit sed arcu tristique ullamcorper.</div>
-					</div>
-					<div class="postsBlock">
-						<div class="post clearfix">
-							<div class="post__hover">
-								
-							</div>
-							<div class="post__textBlock">
-								<div class="title3">Ui/Ux Design</div>
-								<div class="text post__text">
-									<p class="post__p">Fusce posuere et males uada est, nec convallis euis mod. Nam eleifen elitinex placerat semper vitae et enim.</p>
-									<p class="post__p">Males uada est, nec convallis euis mod. Nam eleifen elitinex placerat.</p>
-								</div>
-							</div>
-						</div>
-						<div class="post post_2 clearfix">
-							<div class="post__hover">
-								
-							</div>
-							<div class="post__textBlock">
-								<div class="title3">Web Development</div>
-								<div class="text post__text">
-									<p class="post__p">Phasellus interdum aliquam eros, vitae vestibulum elit malesuada ut. Integer nec ex accumsan, suscipit eros a, tempus nisi. Suspendisse pretium elementum.</p>
-									
-								</div>
-							</div>
-						</div>
-						
-					</div>
-			</div>
-		</div>
-	</div>
+		
+		<script src="js/main.js"></script>
 </body>
 </html>
